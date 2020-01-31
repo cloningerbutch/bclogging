@@ -1,0 +1,18 @@
+{
+  "name": "bclogger",
+  "version": "1.0.0",
+  "description": "simplified console logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Butch Cloningier",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "moment": "^2.24.0"
+  }
+}
