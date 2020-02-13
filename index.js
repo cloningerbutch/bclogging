@@ -47,12 +47,12 @@ Object.defineProperty(Logger,'defaultLevelName',{
 Logger.mask = null;
 
 Logger.levelTheme = {
-    SILLY: chalk.keyword('purple'),
-    DEBUG: chalk.greenBright,
-    INFO: chalk.whiteBright,
-    WARN: chalk.yellowBright,
-    ERROR: chalk.keyword('orange'),
-    FATAL: chalk.redBright
+    SILLY: chalk.keyword('purple').bold,
+    DEBUG: chalk.greenBright.bold,
+    INFO: chalk.black.bold,
+    WARN: chalk.yellowBright.bold,
+    ERROR: chalk.keyword('orange').bold,
+    FATAL: chalk.redBright.bold
 }
 Logger.showThisMask = function(currMask){
     var ret = false;

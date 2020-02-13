@@ -1,6 +1,6 @@
 {
   "name": "bclogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simplified console logging",
   "main": "index.js",
   "scripts": {

@@ -15,6 +15,3 @@ log.warn('one','two',o,`id: ${o.id}`);
 log.error('one','two',o,`id: ${o.id}`);
 log.fatal('one','two',o,`id: ${o.id}`);
 
-for (var i=0; i<100; i++){
-    log.info('idx',i);
-}
